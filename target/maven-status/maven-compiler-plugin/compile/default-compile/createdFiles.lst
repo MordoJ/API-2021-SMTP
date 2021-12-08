@@ -1,0 +1,10 @@
+model/mail/Mail.class
+model/prank/Prank.class
+config/IConfigurationManager.class
+smtp/SmtpClient.class
+config/ConfigurationManager.class
+model/prank/PrankGenerator.class
+model/mail/Person.class
+model/mail/Group.class
+App.class
+smtp/ISmtpClient.class
