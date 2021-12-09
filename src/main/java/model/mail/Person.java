@@ -15,12 +15,6 @@ public class Person {
     private String lastName;
     private final String address;
 
-    public Person(String firstName, String lastName, String address) {
-        this.firstName = firstName;
-        this.lastName  = lastName;
-        this.address   = address;
-    }
-
     public Person(String address) {
         this.address = address;
         Pattern pattern = Pattern.compile("(.*)\\.(.*)@");
