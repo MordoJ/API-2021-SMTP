@@ -10,8 +10,6 @@ public class Mail {
     private String from;
     private String[] to; // there can be more than one recipient
     private String[] cc; // there can be more than one witness
-    private String[] bcc; // blind carbon copy, the others won't be able to see that someone else has been sent a copy
-    private String subject;
     private String body;
 
     public String getFrom() {
@@ -36,14 +34,6 @@ public class Mail {
 
     public void setCc(String[] cc) {
         this.cc = cc;
-    }
-
-    public String getSubject() {
-        return subject;
-    }
-
-    public void setSubject(String subject) {
-        this.subject = subject;
     }
 
     public String getBody() {

@@ -29,7 +29,9 @@ public class App {
             mail.setFrom(p.getVictimSender().getAddress());
             mail.setTo(to);
             mail.setCc(cc);
-            mail.setBody(p.getMessage());
+            mail.setBody(p.getMessage() + "\n" +
+                         p.getVictimSender().getFirstName() + " " +
+                         p.getVictimSender().getLastName());
 
             smtpClient.sendMail(mail);
         }
