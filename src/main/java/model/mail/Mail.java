@@ -38,14 +38,6 @@ public class Mail {
         this.cc = cc;
     }
 
-    public String[] getBcc() {
-        return bcc;
-    }
-
-    public void setBcc(String[] bcc) {
-        this.bcc = bcc;
-    }
-
     public String getSubject() {
         return subject;
     }

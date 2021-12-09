@@ -11,6 +11,6 @@ RUN apt-get update && \
 #
 COPY MockMock.jar /opt/app/MockMock.jar
 
-EXPOSE 8282
+EXPOSE 2525 8282
 
 CMD ["java", "-jar", "/opt/app/MockMock.jar", "-p", "2525"]
